@@ -1,0 +1,43 @@
+body {
+    background: -webkit-linear-gradient(yellow, dodgerblue);
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.header_div {
+    background-color: ivory;
+    color: royalblue;
+    font-family: 'Fruktur', cursive;
+}
+
+.header_div p {
+    font-family: 'Irish Grover', cursive;
+    letter-spacing: 3px;
+    color: indigo;
+    font-weight: bold;
+}
+
+.main_div button {
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 4px;
+    font-weight: bolder;
+    font-size: medium;
+    margin-top: 30px;
+}
+
+.footer_div {
+    font-family: 'Cinzel Decorative', cursive;
+    line-height: 3;
+    position: fixed;
+    text-shadow: 5px 5px 5px rgb(45, 80, 127);
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: red;
+    color: black;
+    font-weight: bolder;
+}
+
+.model_label, .model_confidence {
+    font-weight: bolder;
+    color: chocolate;
+}
